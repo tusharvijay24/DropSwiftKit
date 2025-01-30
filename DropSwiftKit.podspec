@@ -1,42 +1,24 @@
-#
-# Be sure to run `pod lib lint DropSwiftKit.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'DropSwiftKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DropSwiftKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/tusharvijay49/DropSwiftKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tusharvijay49' => 'tusharvijayvargiya24112000@gmail.com' }
-  s.source           = { :git => 'https://github.com/tusharvijay49/DropSwiftKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'DropSwiftKit/Classes/**/*'
+  s.name         = "DropSwiftKit"
+  s.version      = "0.1.0"
+  s.summary      = "A dropdown menu library like iOS Photos App"
+  s.description  = "DropSwiftKit provides a reusable dropdown menu and action sheet."
+  s.homepage     = "https://github.com/tusharvijay24/DropSwiftKit"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.author       = { "Tushar Vijayvargiya" => "tusharvijayvargiya24112000@gmail.com" }
+  s.source       = { :git => "https://github.com/tusharvijay24/DropSwiftKit.git", :tag => s.version.to_s }
   
-  # s.resource_bundles = {
-  #   'DropSwiftKit' => ['DropSwiftKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = "14.0"
+  s.swift_version = "5.0"
+  
+  # Include all source files in the correct folder structure
+  s.source_files = "DropSwiftKit/**/*.{swift}"
+  
+  # Ensure the framework is available
+  s.frameworks = "UIKit"
+  
+  # Specify resource bundles (if any assets, storyboards, or xibs are needed in the future)
+  s.resource_bundles = {
+    'DropSwiftKitResources' => ["DropSwiftKit/Resources/**/*.{storyboard,xib,xcassets}"]
+  }
 end

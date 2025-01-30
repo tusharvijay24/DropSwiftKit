@@ -1,0 +1,16 @@
+PODS:
+  - DropSwiftKit (0.1.0)
+
+DEPENDENCIES:
+  - DropSwiftKit (from `../`)
+
+EXTERNAL SOURCES:
+  DropSwiftKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DropSwiftKit: 4ee9e8e23d2c0300a7da0f88042a6f891b237ad3
+
+PODFILE CHECKSUM: 62daf3fa01330394766d2a2e0b58582ab2f6fc75
+
+COCOAPODS: 1.16.2

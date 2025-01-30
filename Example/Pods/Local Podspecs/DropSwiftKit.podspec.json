@@ -1,0 +1,22 @@
+{
+  "name": "DropSwiftKit",
+  "version": "0.1.0",
+  "summary": "A short description of DropSwiftKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tusharvijay49/DropSwiftKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tusharvijay49": "tusharvijayvargiya24112000@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tusharvijay49/DropSwiftKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DropSwiftKit/Classes/**/*"
+}
