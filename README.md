@@ -106,6 +106,3 @@ Tushar Vijayvargiya
 
 DropSwiftKit is available under the MIT license. See the [LICENSE](https://github.com/tusharvijay24/DropSwiftKit/blob/main/LICENSE) file for more information.
 
----
-
-This README provides a comprehensive overview of DropSwiftKit, guiding users from installation to advanced usage. If you have further questions or need additional modifications, feel free to ask! 
